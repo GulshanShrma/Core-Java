@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.easy;
 
 /**
  * Definition for singly-linked list.

@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.easy;
 
 public class aMainFunction {
 /* a is just a prefix to keep this code at top

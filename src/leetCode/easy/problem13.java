@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.easy;
 
 public class problem13 {
 	public static int romanToInt(String s) {
