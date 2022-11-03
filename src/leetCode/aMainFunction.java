@@ -6,11 +6,11 @@ public class aMainFunction {
  * This function is to have main function to call other problems
  */
 	public static void main(String args[]) {
-		String[] strs = {"flower","flow","flight"}; 
-		String[] strsb = {"ab","a"}; 
-		String[] strsa = {"baab","bacb","b","cbc"}; 
-		String[] strss = {"cir","car"}; 
-		System.out.println(problem14.longestCommonPrefix(strss));
+		String strs = "()"; 
+		String strsb = "()[]{}"; 
+		String strsa = "(]"; 
+		String strss = "){"; 
+		System.out.println(problem20.isValid(strss));
 	}
 
 }
