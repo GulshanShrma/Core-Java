@@ -13,6 +13,6 @@ package leetCode;
 
 public class problem21 {
 public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        
+        return list1;
     }
 }

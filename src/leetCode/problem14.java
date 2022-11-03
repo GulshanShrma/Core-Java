@@ -2,6 +2,7 @@ package leetCode;
 
 public class problem14 {
 
+	@SuppressWarnings("unused")
 	public static String longestCommonPrefix(String[] strs) {
 		int lenStringList = strs.length;
 		String prefix = strs[0];
