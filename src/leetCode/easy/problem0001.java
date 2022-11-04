@@ -1,6 +1,6 @@
 package leetCode.easy;
 
-public class problem1 {
+public class problem0001 {
 	 public int[] twoSum(int[] nums, int target) {
 //	  	two numbers add up to target.
 //	  	exactly one solution

@@ -1,6 +1,6 @@
 package leetCode.easy;
 
-public class problem9 {
+public class problem0009 {
 //	9. Palindrome Number
 	 public boolean isPalindrome(int x) {
 		 String sX = Integer.toString(x);

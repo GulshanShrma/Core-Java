@@ -5,12 +5,17 @@ public class aMainFunction {
  * This function is modified as per the latest code I am working on.
  * This function is to have main function to call other problems
  */
+	@SuppressWarnings("unused")
 	public static void main(String args[]) {
-		String strs = "()"; 
-		String strsb = "()[]{}"; 
+		int[] strs = {1,1,2}; 
+		int[] strsb = {0,0,1,1,1,2,2,3,3,4}; 
 		String strsa = "(]"; 
 		String strss = "){"; 
-		System.out.println(problem20.isValid(strss));
+		for (int i:strs)
+			System.out.print(strs[i]);
+		System.out.println();
+		System.out.println(problem0026.removeDuplicates(strsb));
+		
 	}
 
 }

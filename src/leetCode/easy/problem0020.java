@@ -3,7 +3,7 @@ package leetCode.easy;
 import java.util.Stack;
 
 // Valid Parentheses
-public class problem20 {
+public class problem0020 {
 	 public static boolean isValid (String s) {
 	        int lenString = s.length();
 	        Stack<Character> stStore = new Stack<Character>();

@@ -1,5 +1,6 @@
 package leetCode.easy;
 
+import java.util.LinkedList;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -11,8 +12,10 @@ package leetCode.easy;
  * }
  */
 
-public class problem21 {
+public class problem0021 {
 public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+		LinkedList<Integer> temp = new LinkedList<Integer>();
+		temp.add(0);
         return list1;
     }
 }

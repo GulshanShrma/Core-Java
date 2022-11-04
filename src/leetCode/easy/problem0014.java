@@ -1,6 +1,6 @@
 package leetCode.easy;
 
-public class problem14 {
+public class problem0014 {
 
 	@SuppressWarnings("unused")
 	public static String longestCommonPrefix(String[] strs) {
