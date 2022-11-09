@@ -11,10 +11,10 @@ public class aMainFunction {
 		int[] strsb = {0,1,2,2,3,0,4,2}; 
 		String strsa = "(]"; 
 		String strss = "){"; 
-		for (int i=0;i<strsb.length;i++) 
-			System.out.print(strsb[i]);
+		for (int i=0;i<strs.length;i++) 
+			System.out.print(strs[i]);
 		System.out.println();
-		System.out.println(problem0035.searchInsert(strsb,2));
+		System.out.println(problem0058.lengthOfLastWord(strsa));
 	}
 }
 	
