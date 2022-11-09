@@ -7,16 +7,14 @@ public class aMainFunction {
  */
 	@SuppressWarnings("unused")
 	public static void main(String args[]) {
-		int[] strs = {1,1,2}; 
-		int[] strsb = {0,0,1,1,1,2,2,3,3,4}; 
+		int[] strs = {1,3,5,6}; 
+		int[] strsb = {0,1,2,2,3,0,4,2}; 
 		String strsa = "(]"; 
 		String strss = "){"; 
-		for (int i:strs)
-			System.out.print(strs[i]);
+		for (int i=0;i<strsb.length;i++) 
+			System.out.print(strsb[i]);
 		System.out.println();
-		System.out.println(problem0026.removeDuplicates(strsb));
-		
+		System.out.println(problem0035.searchInsert(strsb,2));
 	}
-
 }
 	

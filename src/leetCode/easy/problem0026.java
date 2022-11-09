@@ -1,6 +1,5 @@
 package leetCode.easy;
 
-//import java.util.HashMap;
 //  Remove Duplicates from Sorted Array
 public class problem0026 {
 	 public static int removeDuplicates(int[] nums) {
