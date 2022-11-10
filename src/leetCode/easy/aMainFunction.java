@@ -7,14 +7,17 @@ public class aMainFunction {
  */
 	@SuppressWarnings("unused")
 	public static void main(String args[]) {
-		int[] strs = {1,3,5,6}; 
+		String strs = "b a "; 
 		int[] strsb = {0,1,2,2,3,0,4,2}; 
-		String strsa = "(]"; 
-		String strss = "){"; 
-		for (int i=0;i<strs.length;i++) 
-			System.out.print(strs[i]);
+		String strsa = "Hello World";
+		String strsd = "day";
+		String strss = "   fly me   to   the moon  "; 
+//		for (int i=0;i<strs.length;i++) 
+//			System.out.print(strs[i]);
+		System.out.println(strsd);
+		System.out.println(strsd.length());
 		System.out.println();
-		System.out.println(problem0058.lengthOfLastWord(strsa));
+		System.out.println(problem0058.lengthOfLastWord(strsd));
 	}
 }
 	
